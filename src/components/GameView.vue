@@ -113,16 +113,16 @@ export default {
 	},
 	computed: {
 		  remainingCountries() {
-			  const helpLength = Math.floor(this.entries.length / 5);
-			  const correctEnd = this.correctCountry.substr(this.correctCountry.length - helpLength, helpLength);
+			  //const helpLength = Math.floor(this.entries.length / 5);
+			  //const correctEnd = this.correctCountry.substr(this.correctCountry.length - helpLength, helpLength);
 			  //const correctStart = this.correctCountry.substr(0, Math.floor(this.entries.length / 5));
-			  return Object.keys(this.countries).filter(country => !this.entries.includes(country) && country.endsWith(correctEnd));
+			  //return Object.keys(this.countries).filter(country => !this.entries.includes(country) && country.endsWith(correctEnd));
+			  return Object.keys(this.countries).filter(country => !this.entries.includes(country));
 		  }
 	},
 	mounted() {
 		this.countries = countries;
 		this.correctCountry = this.selectRandomCountry();
-		this.entries.unshift("spain");
 	},
 }
 </script>
