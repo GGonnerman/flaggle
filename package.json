@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "canvas": "^2.11.0",
     "core-js": "^3.8.3",
+    "resemblejs": "^4.1.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {

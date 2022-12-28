@@ -1,20 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<GameView/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GameView from "./components/GameView.vue";
+
+// <img src="../assets/flags/svg/au.svg"/>
+// <img :src="require(`@/assets/${footerItem.icon}`)">
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+	  GameView,
+  },
 }
 </script>
 
 <style>
+html, body {
+	padding: 0 50px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

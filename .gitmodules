@@ -1,0 +1,6 @@
+[submodule "public/flags"]
+	path = public/flags
+	url = https://github.com/CodingGarden/flags.git
+[submodule "assets/flags"]
+	path = assets/flags
+	url = https://github.com/CodingGarden/flags.git
