@@ -5,9 +5,6 @@
 <script>
 import GameView from "./components/GameView.vue";
 
-// <img src="../assets/flags/svg/au.svg"/>
-// <img :src="require(`@/assets/${footerItem.icon}`)">
-
 export default {
   name: 'App',
   components: {
