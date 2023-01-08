@@ -1,6 +1,3 @@
-[submodule "public/flags"]
-	path = public/flags
-	url = https://github.com/CodingGarden/flags.git
-[submodule "assets/flags"]
-	path = assets/flags
-	url = https://github.com/CodingGarden/flags.git
+[submodule "flag-icons"]
+	path = flag-icons
+	url = https://github.com/lipis/flag-icons.git

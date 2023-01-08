@@ -56,7 +56,7 @@ export default {
 .flagImage {
 	height: auto;
 	width: 30vw;
-	max-width: 500px;
+	max-width: 300px;
 	margin: 20px;
 }
 .flagImage.result {

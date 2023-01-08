@@ -1,4 +1,4 @@
-# flaggle
+# flags
 
 ## Project setup
 ```
